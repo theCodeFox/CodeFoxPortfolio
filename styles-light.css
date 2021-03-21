@@ -13,18 +13,18 @@ header {
 
 /* css for work cloud */
 .cloud li {
-  color: rgba(0, 0, 0, 0.7);
+  color: rgba(0, 0, 0, 0.9);
 }
 .cloud li:nth-of-type(n + 1) {
-  color: rgba(0, 0, 0, 0.4);
+  color: rgba(0, 0, 0, 0.6);
 }
 .cloud li:nth-of-type(2n + 1) {
-  color: rgba(0, 0, 0, 0.6);
+  color: rgba(0, 0, 0, 0.8);
 }
 .cloud li:nth-of-type(3n + 3) {
   font-size: 1.5em;
-  color: orange;
+  color: black;
 }
 .cloud li:nth-of-type(4n - 3) {
-  color: rgba(0, 0, 0, 0.5);
+  color: rgba(0, 0, 0, 0.7);
 }

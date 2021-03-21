@@ -8,7 +8,7 @@ a {
   padding: 1em;
 }
 
-/* nav bar - header & footer */
+/* nav bar header &  say hello footer */
 header {
   display: flex;
   flex: 1;
@@ -58,26 +58,50 @@ footer {
 .hidden {
   color: transparent;
 }
-#home:hover .ascii-highlight {
+#home:hover .highlight {
   color: orange;
   font-weight: bold;
   transition: 0.5s;
 }
 
-/* css for work cloud */
-li {
-  word-wrap: none;
+/* about me */
+p {
+  text-align: justify;
+}
+#about, #about2, #projects {
+  padding: 1em;
+}
+#skills:hover .highlight {
+  color: orange;
+  transition: 0.5s;
 }
 
+/* projects */
+.project-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.project {
+  height: 200px;
+  width: 200px;
+  margin: 0.5em;
+  border: 1px solid red;
+}
+
+/* css for work cloud */
+li {
+  white-space: nowrap;
+  font-variant: small-caps;
+}
 .centre {
-  padding: 0 15%;
-  width: 70%;
-  text-align: justify;
+  padding: 0 10%;
+  width: 80%;
+  text-align: center  ;
 }
 .cloud {
   display: inline;
   list-style-type: none;
-  word-wrap: none;
 }
 .cloud li {
   list-style: none;
@@ -91,7 +115,7 @@ li {
 }
 .cloud li:nth-of-type(3n + 3) {
   font-size: 1.5em;
-  color: orange;
+  color: black;
 }
 .cloud li:nth-of-type(4n - 3) {
   font-size: 1em;
