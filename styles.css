@@ -1,12 +1,17 @@
 /* css for work cloud */
+li {
+  word-wrap: none;
+}
+
 .centre {
   margin: 0 15%;
   width: 70%;
+  text-align: justify;
 }
 .cloud {
   display: inline;
   list-style-type: none;
-  width: 400px;
+  word-wrap: none;
 }
 .cloud li {
   list-style: none;
