@@ -35,14 +35,16 @@ header {
   font: 0.75em/1.2em 'Courier New', monospace;
   text-align: center;
   padding-top: 5em;
+  white-space: nowrap;
+  overflow-x: hidden;
 }
 .hidden {
   color: transparent;
 }
 #home:hover .ascii-highlight {
-  transition: 0.5s;
-  text-decoration: bold;
   color: orange;
+  font-weight: bold;
+  transition: 0.5s;
 }
 
 /* css for work cloud */
