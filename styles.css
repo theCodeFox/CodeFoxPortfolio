@@ -13,6 +13,7 @@ a {
 /* nav bar */
 header {
   border-bottom: 1px solid black;
+  background-color: white;
   display: flex;
   flex: 1;
   justify-content: space-between;
@@ -22,10 +23,30 @@ header {
   width: 25%;
   font-size: 1.25em;
   font-variant: small-caps;
-  transition: 1s;
 }
 .nav-links:hover {
-  background-color: yellow;
+  transition: 1s;
+  background-color: orange;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* ascii fox */
+#home {
+  font: 0.75em/1.2em 'Courier New', monospace;
+  text-align: center;
+  padding-top: 5em;
+}
+.hidden {
+  color: transparent;
+}
+#home:hover .ascii-highlight {
+  transition: 0.5s;
+  text-decoration: bold;
+  color: orange;
 }
 
 /* css for work cloud */
@@ -58,7 +79,7 @@ li {
 }
 .cloud li:nth-of-type(3n + 3) {
   font-size: 1.5em;
-  color: #6a00ec;
+  color: orange;
 }
 .cloud li:nth-of-type(4n - 3) {
   font-size: 1em;
