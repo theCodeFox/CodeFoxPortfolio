@@ -1,0 +1,30 @@
+body {
+  background-color: white;
+  color: black;
+}a {
+  color: black;
+}
+
+/* nav bar */
+header {
+  border-bottom: 1px solid black;
+  background-color: white;
+}
+
+/* css for work cloud */
+.cloud li {
+  color: rgba(0, 0, 0, 0.7);
+}
+.cloud li:nth-of-type(n + 1) {
+  color: rgba(0, 0, 0, 0.4);
+}
+.cloud li:nth-of-type(2n + 1) {
+  color: rgba(0, 0, 0, 0.6);
+}
+.cloud li:nth-of-type(3n + 3) {
+  font-size: 1.5em;
+  color: orange;
+}
+.cloud li:nth-of-type(4n - 3) {
+  color: rgba(0, 0, 0, 0.5);
+}
