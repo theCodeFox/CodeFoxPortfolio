@@ -117,6 +117,7 @@ p {
   right: 0;
   padding: 0.5em 0.5em 1.75em 0.5em;
   margin: 0;
+  color: white;
   background-image: linear-gradient(black,transparent);
 }
 
