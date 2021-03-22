@@ -89,7 +89,6 @@ p {
   height: 150px;
   width: 150px;
   margin: 0.5em;
-  border: 1px solid red;
   z-index: 1000;
 }
 .project-img {
