@@ -151,3 +151,8 @@ li {
 .cloud li:nth-of-type(4n - 3) {
   font-size: 1em;
 }
+
+/* custom scroll */
+::-webkit-scrollbar {
+  width: 10px;
+}

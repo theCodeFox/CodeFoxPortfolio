@@ -28,3 +28,11 @@ header {
 .cloud li:nth-of-type(4n - 3) {
   color: rgba(0, 0, 0, 0.7);
 }
+
+/* custom scroll */
+::-webkit-scrollbar-track {
+  background: white; 
+}
+::-webkit-scrollbar-thumb {
+  background: black; 
+}
