@@ -86,11 +86,7 @@ p {
   text-align: justify;
 }
 #about, #about2, #projects {
-  padding: 1em;
-}
-#skills:hover .highlight {
-  color: orange;
-  transition: 0.5s;
+  padding: 0.25em 2em;
 }
 
 /* projects */
@@ -119,6 +115,10 @@ p {
   margin: 0;
   color: white;
   background-image: linear-gradient(black,transparent);
+}
+.project:hover .highlight {
+  color: orange;
+  transition: 0.5s;
 }
 
 /* css for work cloud */
@@ -156,4 +156,18 @@ li {
 /* custom scroll */
 ::-webkit-scrollbar {
   width: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    font-size: 0.60em;
+  }
+  .project {
+    height: 100px;
+    width: 100px;
+  }
+  .project-img {
+    height: 100px;
+    width: 100px;
+  }
 }
