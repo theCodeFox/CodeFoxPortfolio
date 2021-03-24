@@ -114,6 +114,7 @@ p {
   padding: 0.5em 0.5em 1.75em 0.5em;
   margin: 0;
   color: white;
+  font-variant: small-caps;
   background-image: linear-gradient(black,transparent);
 }
 .project:hover .highlight {
